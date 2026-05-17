@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: byod-proxy
+    runtime: node
+    plan: free          # Render free plan
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
