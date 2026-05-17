@@ -8,10 +8,10 @@ const ORIGIN_HOST      = "byod.baylib.top";
 const ORIGIN           = `https://${ORIGIN_HOST}`;
 const PORT             = process.env.PORT || 3000;
 
-const META_TITLE       = "i-Ready Learning";
-const META_DESCRIPTION = "Learn how i-Ready adaptive assessments and personalized instruction helps students achieve their personal best in mathematics and literacy.";
-const META_OG_TITLE    = "i-Ready Learning";
-const META_OG_DESC     = "Learn how i-Ready adaptive assessments and personalized instruction helps students achieve their personal best in mathematics and literacy.";
+const META_TITLE       = "Sparx Maths - Home";
+const META_DESCRIPTION = "Sparx Maths builds maths confidence through personalised homework for students aged 11-16 and is proven to significantly boost grades by the University of Cambridge";
+const META_OG_TITLE    = "Sparx Maths - Home";
+const META_OG_DESC     = "Sparx Maths builds maths confidence through personalised homework for students aged 11-16 and is proven to significantly boost grades by the University of Cambridge";
 // ─────────────────────────────────────────────────────────────────────────────
 
 const META_BLOCK = `<title>${META_TITLE}</title>
