@@ -16,10 +16,10 @@ import { parse as parseHtml } from "node-html-parser";
 const ORIGIN_HOST = "byod.baylib.top";
 const ORIGIN_BASE = `https://${ORIGIN_HOST}`;
 
-const META_TITLE       = "byod";
-const META_DESCRIPTION = "byod";
-const META_OG_TITLE    = "byod";
-const META_OG_DESC     = "byod";
+const META_TITLE       = "IXL | Math, Language Arts, Science, Social Studies, and Spanish";
+const META_DESCRIPTION = "IXL is the world's most popular subscription-based learning site for K–12. Used by over 18 million students, IXL provides personalized learning in more than 17,000 topics, covering math, language arts, science, social studies, and Spanish. Interactive questions, awards, and certificates keep kids motivated as they master skills.";
+const META_OG_TITLE    = "IXL | Math, Language Arts, Science, Social Studies, and Spanish";
+const META_OG_DESC     = "IXL is the world's most popular subscription-based learning site for K–12. Used by over 18 million students, IXL provides personalized learning in more than 17,000 topics, covering math, language arts, science, social studies, and Spanish. Interactive questions, awards, and certificates keep kids motivated as they master skills.";
 
 const STRIP_REQUEST_HEADERS = new Set([
   "host", "cf-connecting-ip", "cf-ipcountry", "cf-ray",
