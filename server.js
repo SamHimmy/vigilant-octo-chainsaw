@@ -8,10 +8,10 @@ const ORIGIN_HOST      = "byod.baylib.top";
 const ORIGIN           = `https://${ORIGIN_HOST}`;
 const PORT             = process.env.PORT || 3000;
 
-const META_TITLE       = "IXL | Math, Language Arts, Science, Social Studies, and Spanish";
-const META_DESCRIPTION = "IXL is the world's most popular subscription-based learning site for K–12. Used by over 18 million students, IXL provides personalized learning in more than 17,000 topics, covering math, language arts, science, social studies, and Spanish. Interactive questions, awards, and certificates keep kids motivated as they master skills.";
-const META_OG_TITLE    = "IXL | Math, Language Arts, Science, Social Studies, and Spanish";
-const META_OG_DESC     = "IXL is the world's most popular subscription-based learning site for K–12. Used by over 18 million students, IXL provides personalized learning in more than 17,000 topics, covering math, language arts, science, social studies, and Spanish. Interactive questions, awards, and certificates keep kids motivated as they master skills.";
+const META_TITLE       = "i-Ready Learning";
+const META_DESCRIPTION = "Learn how i-Ready adaptive assessments and personalized instruction helps students achieve their personal best in mathematics and literacy.";
+const META_OG_TITLE    = "i-Ready Learning";
+const META_OG_DESC     = "Learn how i-Ready adaptive assessments and personalized instruction helps students achieve their personal best in mathematics and literacy.";
 // ─────────────────────────────────────────────────────────────────────────────
 
 const META_BLOCK = `<title>${META_TITLE}</title>
